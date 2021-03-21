@@ -1,9 +1,6 @@
-#C:\Users\almog\Desktop\PythonMatalot\matala2\text.txt
-text=input('enter your file name : ')
+text="C:\\Users\\almog\\Desktop\\PythonMatalot\\matala2\\text.txt"
 text=open(text)
-word=''
 word=text.readline().rstrip()
-#print(word)
 
 def revword(word):
     l=len(word)-1
@@ -25,8 +22,8 @@ def countword(text):
                  count=count+1
              newline=newline+' '+new
          #print(newline.rstrip())
-    return count 
-           
-
+    return count           
+#print(countword(text))
  
 
+ 
