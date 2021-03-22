@@ -1,7 +1,3 @@
-#text="C:\\Users\\almog\\Desktop\\PythonMatalot\\matala2\\text.txt"
-#text=open(text)
-#word=text.readline().rstrip()
-
 def revword(word):
     l=len(word)-1
     newword=''
@@ -11,8 +7,8 @@ def revword(word):
         newword=newword+w       
     return newword.lower()
 
-def countword(text):
-    text=open(text)
+def countword():
+    text=open('text.txt')
     word=text.readline().rstrip()
     count=1
     for line in text:
@@ -25,8 +21,6 @@ def countword(text):
              newline=newline+' '+new
          #print(newline.rstrip())
     return count           
-#print(countword(text))
- 
 
 
- 
+  
