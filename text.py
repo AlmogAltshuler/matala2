@@ -19,8 +19,7 @@ def countword():
              if new==word:
                  count=count+1
              newline=newline+' '+new
-         #print(newline.rstrip())
     return count           
-
+ 
 
   
